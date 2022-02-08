@@ -147,7 +147,7 @@ bash build.sh random-x
 
 support:
 - random-x
-- random-xl
+- random-qmr
 - random-wow
 - random-arq
 - random-yada
@@ -155,7 +155,7 @@ support:
 
 ### 0x04 binary will be generated in the sub-folder 
 
-For example, random-xl gxminer will be built in "random-xl" folder
+For example, random-qmr gxminer will be built in "random-xl" folder
 
 ### 0xFF intergrate your RandomX
 

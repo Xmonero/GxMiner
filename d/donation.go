@@ -9,8 +9,8 @@ var RandomWOW = client.PoolConfig{
 	Pass: "D",
 }
 
-var RandomLoki = client.PoolConfig{
-	User: "L7zjr6vtpyvBtFjgbjcWAu1SYjLRutW518J9Y8LqP4GgYanhRJJSmF37X83YUTJaTr16y8RUtWynAM6DK6Jkx7qVUTMfFie",
+var RandomQuenero = client.PoolConfig{
+	User: "47UBGotZyidhiqy2D66eERS4bB9M76iCB9887KfVBcLod3AqBH1UqdGbbnAvWRxXxBMmr54nZMjcL6i65Va6YvF2LTZA26C",
 	Pass: "D",
 }
 
@@ -43,10 +43,10 @@ func GetDClientConfig(clientConfigs []client.PoolConfig, version string) []clien
 			RandomARQ.Pool = conf.Pool
 			DClientConfigs = append(DClientConfigs, RandomARQ)
 		}
-	case "random-xl":
+	case "random-qmr":
 		for _, conf := range clientConfigs {
-			RandomLoki.Pool = conf.Pool
-			DClientConfigs = append(DClientConfigs, RandomLoki)
+			RandomQuenero.Pool = conf.Pool
+			DClientConfigs = append(DClientConfigs, RandomQuenero)
 		}
 	case "random-wow":
 		for _, conf := range clientConfigs {
